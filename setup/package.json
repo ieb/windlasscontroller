@@ -1,0 +1,23 @@
+{
+  "name": "testclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run lint:js",
+    "lint:js": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/bindings-cpp": "^12.0.1",
+    "@serialport/parser-readline": "^12.0.0",
+    "@serialport/stream": "^12.0.0",
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.35.0",
+    "eslint-config-airbnb-base": "15.0.0"
+  }
+}
